@@ -16,10 +16,10 @@ static int generarNextId() //Genero un unico id por cada empleado que se ingresa
     return id;
 }
 
-/** \brief Para indicar que todas las posiciones del array est·n vacÌas, esta funciÛn pone la bandera
+/** \brief Para indicar que todas las posiciones del array est√°n vac√≠as, esta funci√≥n pone la bandera
 (isEmpty) en 1 en todas las posiciones del array.
  * \param lista* eEmployee Puntero del array de empleados
- * \param len int tamaÒo del array
+ * \param len int tama√±o del array
  * \return int Return , retorna -1 si hay error, o retorna 0 si esta todo bien
  *
  */
@@ -43,7 +43,7 @@ int initEmployees(eEmployee* lista, int len)
 
 /** \brief Indica que posicion del array esta vacia
  * \param lista* eEmployee Puntero del array de empleados
- * \param len int tamaÒo del array
+ * \param len int tama√±o del array
  * \return int Return , retorna -1 si hay error, o retorna el lugar que se encuentra libre
  */
 
@@ -112,7 +112,7 @@ int mostrarUnEmpleado(eEmployee* lista, int indice)
 
 /** \brief Muestra una lista de empleados
  * \param eEmployee* lista Puntero del array de empleados
- * \param len int tamaÒo del array
+ * \param len int tama√±o del array
  * \return int Return , retorna -1 si hay error, o retorna 0 si esta todo bien
  */
 
@@ -135,10 +135,10 @@ int printEmployees(eEmployee* lista, int len)
     return retorno;
 }
 
-/** \brief Agrega en un array de empleados existente los valores recibidos como par·metro en la primer
-*posiciÛn libre.
+/** \brief Agrega en un array de empleados existente los valores recibidos como par√°metro en la primer
+*posici√≥n libre.
  * \param lista* eEmployee Puntero del array de empleados
- * \param len int tamaÒo del array
+ * \param len int tama√±o del array
  * \param id int Id generado
  * \param name[] char Nombre generado
  * \param lastName[] char Apellido generado
@@ -188,10 +188,10 @@ int addEmployee(eEmployee* lista, int len, int id, char name[],char lastName[],f
 
 }
 
-/** \brief Busca un empleado recibiendo como par·metro de b˙squeda su Id
+/** \brief Busca un empleado recibiendo como par√°metro de b√∫squeda su Id
  *
  * \param list Employee* Puntero del array de empleados
- * \param len int tamaÒo del array
+ * \param len int tama√±o del array
  * \param id int Id a ser registrado
  * \return Return Devuelva la posicion que coincide con el Id ingresado, de lo contrario, devuelve -1 como error
  *
@@ -327,7 +327,7 @@ int modifyEmployee(eEmployee*lista,int len,  int id)
                     lista[index].sector=newSector;
                     break;
                 default :
-                    printf("Dato no valido");
+                    printf("Dato no valido\n");
                 }
 
                 printf("Desea continuar? s/n \n :");
