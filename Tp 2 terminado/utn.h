@@ -21,5 +21,4 @@ void getValidString(char requestMessage[],char errorMessage[], char input[]);
 
 void cleanStdin(void);
 
-int getValidFloat(char requestMessage[],char errorMessage[], int lowLimit, int hiLimit);
-
+float getValidFloat(char requestMessage[],char errorMessage[], int lowLimit, int hiLimit);
