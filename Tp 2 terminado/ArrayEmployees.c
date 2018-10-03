@@ -9,7 +9,7 @@
 
 static int generarNextId() //Genero un unico id por cada empleado que se ingresa
 {
-    static int id = -1;
+    static int id = 0;
 
     id ++;
 
@@ -77,6 +77,7 @@ int menuDeOpciones()
     int opcion;
     //system("cls");
     printf("-----Menu de opciones-----\n\n");
+    printf("0. Hardcodeo\n");
     printf("1. Alta\n");
     printf("2. Modificar\n");
     printf("3. Baja\n");
