@@ -77,12 +77,12 @@ int menuDeOpciones()
     int opcion;
     //system("cls");
     printf("-----Menu de opciones-----\n\n");
-    printf("0. Hardcodeo\n");
     printf("1. Alta\n");
     printf("2. Modificar\n");
     printf("3. Baja\n");
     printf("4. Informar\n");
     printf("5. Salir\n");
+    printf("6. Hardcodeo\n");
     printf("Elija una opcion:\n");
     fflush(stdin);
     scanf("%d", &opcion);
